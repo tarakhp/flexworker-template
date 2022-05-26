@@ -31,7 +31,7 @@
 <div class="container-fluid">
 
     <div class="card text-center">
-        <h4 class="card-header"><img src="./template/flexworker.ico"><b> My Solution Template Generator</b></h4>
+        <h4 class="card-header"><img src="./template/flexworker.ico"><b> Flexworker template</b></h4>
         <div class="card-body">
             <form id="form_template">
                 <div class="form-group">
@@ -605,42 +605,6 @@
 <p id="res"></p>
 
 <script>
-    /*function CopyToClipboard() {
-        var r = document.createRange();
-        r.selectNode(document.getElementById("template_data"));
-        window.getSelection().removeAllRanges();
-        window.getSelection().addRange(r);
-        document.execCommand('copy');
-        window.getSelection().removeAllRanges();
-    }
-    function copyMeOnClipboard() {
-        document.querySelector("#copyMe").select()
-        document.querySelector("#copyMe").setSelectionRange(0, 999999)
-        document.execCommand("copy")
-        showText.innerHTML = `text is copied`
-        setTimeout(() => {
-            showText.innerHTML = ""
-        }, 1000)
-    }
-
-
-
-    function CopyToClipboard(containerid) {
-        if (document.selection) {
-            var range = document.body.createTextRange();
-            range.moveToElementText(document.getElementById(containerid));
-            range.select().createTextRange();
-            document.execCommand("copy");
-        } else if (window.getSelection) {
-            var range = document.createRange();
-            range.selectNode(document.getElementById(containerid));
-            window.getSelection().addRange(range);
-            document.execCommand("copy");
-            alert("Text has been copied")
-        }
-    }
-
-*/
     function CopyToClipboard(id) {
         var r = document.createRange();
         r.selectNode(document.getElementById(id));
