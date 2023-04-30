@@ -417,14 +417,14 @@
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label for="description_txt" class="col-sm-3 col-form-label">Description
+                                        <label for="description_txt" class="col-sm-3 col-form-label">Oboarding Method
                                             : </label>
                                         <div class="col-sm-9">
                                             <select class="form-control" id="description_txt">
                                                 <option selected="" disabled="" value="">Choose an option</option>
-                                                <option value="Onboarding">Onboarding</option>
-                                                <option value="HW/SW Issue">HW/SW Issue</option>
-                                                <option value="SmartApp Issue">SmartApp Issue</option>
+                                                <option value="Smart App">Smart App</option>
+                                                <option value="Manual Claim">Manual Claim</option>
+                                                <option value="Pin-Pairing">Pin-Pairing</option>
                                             </select>
                                         </div>
                                     </div>
@@ -665,7 +665,7 @@
 
             "Appointment: " + document.getElementById("appointment_txt").value + "<br/>" + "<br/>" +
 
-            "Description: " + document.getElementById("description_txt").value + "<br/>" + "<br/>";
+            "Oboarding Method: " + document.getElementById("description_txt").value + "<br/>" + "<br/>";
 
         $('#template_data').html(template_content_value)
     }
